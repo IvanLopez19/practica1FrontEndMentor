@@ -1,0 +1,23 @@
+.card{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    width: 20rem;
+    position: relative;
+}
+
+.nombre{
+    position: abs;
+
+}
+
+.text{
+    position: relative;
+    width: inherit;
+    overflow-wrap: break-word;
+    margin: 5px;
+}
+
+.imagen{
+    height: 20px;
+    position:absolute;
+}
