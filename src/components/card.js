@@ -5,9 +5,9 @@ class Card extends Component{
     render(){
         return(
             <div className='card'>
-                <img clasName='imagen' src='../files/image-colton.jpg'/>
-                <p className='nombre'>Colton Smith</p>
-                <p className='text'>inienidnenednwidninedniedmniwndinedinwondondieniwendiendiwdnindiewndiewndieniewndiendwoeidn</p>
+                <img clasName='imagen' src= {this.props.imagen}/>
+                <h2 className='nombre'>{this.props.name}</h2>
+                <p className='text'>{this.props.text}</p>
             </div> 
         )
     }

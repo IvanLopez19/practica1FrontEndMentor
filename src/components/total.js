@@ -7,9 +7,9 @@ class Total extends Component{
     render(){
         return(
             <div>
-            <Cards/>
-            <Ranks/>
             <Encabezado/>
+            <Ranks/>
+            <Cards/>
             </div>
         )
     }

@@ -3,9 +3,14 @@ import React,{Component} from 'react';
 class Rank extends Component{
     render(){
         return(
-            <div>
+            <div className='rank'>
+                <div className='star'></div>
+                <div className='star'></div>
+                <div className='star'></div>
+                <div className='star'></div>
+                <div className='star'></div>
+                <p>{this.props.text}</p>
                 
-                <p>ijxoiwxwexwxni</p>
             </div>
         )
     }

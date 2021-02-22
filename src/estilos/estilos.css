@@ -1,9 +1,33 @@
+:root{
+    --dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+    --dark-grayis-magenta: hsl(303, 10%, 53%);
+    --light-grayis-magenta: hsl(300, 24%, 96%);
+}
+body{
+    font-family:Spartan;
+    font-size: 15px;
+}
+.encabezado{
+    text-align: center;
+    margin: 5rem 2rem 2rem;
+}
+.encabezado h1{
+    color:var(--dark-magenta);
+}
+.encabezado p{
+    width: 310px;
+    overflow-wrap: normal;
+    font-weight: 400;
+    color:var(--dark-grayis-magenta);
+}
 .card{
     background-color: hsl(300, 43%, 22%);
     border-radius: 5px;
     width: 20rem;
     position: relative;
 }
+
 
 .nombre{
     position: abs;
@@ -20,4 +44,26 @@
 .imagen{
     height: 20px;
     position:absolute;
+}
+
+.rank{
+    background-color: var(--light-grayis-magenta);
+    border-radius: 5px;
+}
+.rank p{
+    font-weight: 700;
+    color: var(--dark-magenta);
+}
+.ranks{
+    text-align: center;
+    margin: 1rem;
+}
+
+.star{
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background-color: orange;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin: 0 5px;
 }

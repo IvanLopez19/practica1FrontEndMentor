@@ -4,10 +4,10 @@ import Rank from './rank';
 class Ranks extends Component{
     render(){
         return(
-            <div>
-                <Rank/>
-                <Rank/>
-                <Rank/>
+            <div className='ranks'>
+                <Rank text='Rated 5 Stars in Reviews'/>
+                <Rank text='Rated 5 Stars in Report Guru'/>
+                <Rank text='Rated 5 Stars in BestTech'/>
             </div>
         )
     }
